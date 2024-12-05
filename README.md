@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vuejsfirstapplication
 
 > a simple view js project with topic wise practice
@@ -19,3 +20,6 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# VueJsFirstApplication
+>>>>>>> e17752a22faf4ecc4999fe1f5c2ab29cff32091f
