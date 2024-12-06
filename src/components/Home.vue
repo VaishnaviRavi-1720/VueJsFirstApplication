@@ -15,6 +15,15 @@
         <li><router-link to="/passing-data">Passing Data to Child</router-link></li>
         <li><router-link to="/list-rendering-vif">List Rendering with v-if</router-link></li>
         <li><router-link to="/rendering-range">Rendering v-for with Range</router-link></li>
+        <li><router-link to="/ListRenderingVForWithObject">List Rendering V-For With Object</router-link></li>
+        <li><router-link to="/RenderFunctionWithArguments">Render Function With Arguments</router-link></li>
+        <li><router-link to="/CompositionAPIWithTemplates">Composition API With Templates</router-link></li>
+        <li><router-link to="/EventHandling">Event Handling</router-link></li>
+        <li><router-link to="/Routing">Routing</router-link></li>
+        <li><router-link to="/Created">Created</router-link></li>
+        <li><router-link to="/Mount">Mount</router-link></li>
+        <li><router-link to="/ShadowDOM">ShadowDOM</router-link></li>
+        <li><router-link to="/VirtualDOM">VirtualDOM</router-link></li>
       </ul>
     </div>
   </template>

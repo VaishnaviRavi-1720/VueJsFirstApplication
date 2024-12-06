@@ -13,6 +13,17 @@ import RenderingVForWithVIf from "../components/RenderingVForWithVIf.vue";
 import RenderingVForWithRange from "../components/RenderingVForWithRange.vue";
 import PassingDataToChildWithProps from "../components/PassingDataToChildWithProps.vue";
 import TwoWayDataBindingModel from "../components/TwoWayDataBindingModel.vue";
+import ListRenderingVForWithObject from "../components/ListRenderingVForWithObject.vue";
+import RenderFunctionWithArguments from "../components/RenderFunctionWithArguments.vue";
+import CompositionAPIWithTemplates from "../components/CompositionAPIWithTemplates.vue";
+import EventHandling from "../components/EventHandling.vue";
+import Routing from "../components/Routing.vue";
+import HelloWorld from "../components/HelloWorld.vue";
+import HelloGeek from "../components/HelloGeek.vue";
+import Created from "../components/Created.vue";
+import Mount from "../components/Mount.vue";
+import ShadowDOM from "../components/ShadowDOM.vue";
+import VirtualDOM from "../components/VirtualDOM.vue";
 
 
 Vue.use(Router);
@@ -33,5 +44,42 @@ export default new Router({
     { path: "/passing-data", name: "PassingDataToChildWithProps", component: PassingDataToChildWithProps },
     { path: "/list-rendering-vif", name: "RenderingVForWithVIf", component: RenderingVForWithVIf },
     { path: "/rendering-range", name: "RenderingVForWithRange", component: RenderingVForWithRange },
+    { path: "/ListRenderingVForWithObject", name:"ListRenderingVForWithObject", component: ListRenderingVForWithObject},
+    { path: "/RenderFunctionWithArguments", name:"RenderFunctionWithArguments", component: RenderFunctionWithArguments},
+    { path: "/CompositionAPIWithTemplates", name:"CompositionAPIWithTemplates", component: CompositionAPIWithTemplates},
+    { path: "/EventHandling", name: "EventHandling",component: EventHandling},
+    { path: "/Routing", name: "Routing", component: Routing},
+    {
+      path: "/helloworld",
+      name: "HelloWorld",
+      component: HelloWorld,
+    },
+    {
+      path: "/hellogeek",
+      name: "HelloGeek",
+      component: HelloGeek,
+    },
+    {
+      path: "/Created",
+      name: "Created",
+      component: Created
+    },
+    {
+      path: "/Mount",
+      name: "Mount",
+      component: Mount
+    },
+    ,
+    {
+      path: "/ShadowDOM",
+      name: "ShadowDOM",
+      component: ShadowDOM
+    },
+    ,
+    {
+      path: "/VirtualDOM",
+      name: "VirtualDOM",
+      component: VirtualDOM
+    },
   ],
 });
